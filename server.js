@@ -7,6 +7,7 @@ const rowdy = require('rowdy-logger') //helps us visually see our routes
 //DB and Models
 const cityController = require('./controllers/cityController.js')
 const postController = require('./controllers/postController.js')
+const db = require('./models/index.js');
 
 
 //Configuration
